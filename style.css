@@ -24,18 +24,30 @@ main {
 }
 
 /* Section Title */
-h2 {
+.Section h2 {
     margin-bottom: 0px;
-    font-size: 39px;
+    font-size: 30px;
     color: var(--ppal-bg-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
 }
 
-p {
+/* Section Subtitle */
+.Section p {
     color: var(--link-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
+}
+
+/* Check Mark */
+
+/* Check List */
+.body p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 40px;
+    line-height: 30px;
 }
