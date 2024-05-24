@@ -54,7 +54,7 @@ main {
 img {
     display: inline-flex;
     align-items: center;
-    width: 4%;
+    width: 2.5%;
     height: auto;
 }
 
@@ -73,6 +73,7 @@ img {
     font-weight: 300;
     font-style: normal;
     line-height: 30px;
+    margin-top: -15px;
 }
 
 .icon1 button {
@@ -99,6 +100,7 @@ img {
     font-weight: 300;
     font-style: normal;
     line-height: 30px;
+    margin-top: -15px;
 }
 
 .icon2 button {
@@ -125,6 +127,7 @@ img {
     font-weight: 300;
     font-style: normal;
     line-height: 30px;
+    margin-top: -15px;
 }
 
 .icon3 button {
@@ -151,6 +154,7 @@ img {
     font-weight: 300;
     font-style: normal;
     line-height: 30px;
+    margin-top: -15px;
 }
 
 .icon4 button {
