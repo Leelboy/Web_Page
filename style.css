@@ -2,6 +2,8 @@
 :root {
     --ppal-bg-color: #000000;
     --link-color: #4242e6;
+    --gray-color: #9fa2b4;
+    --underline-color: #ffa600;
 }
 
 /* Main */
@@ -30,15 +32,17 @@ main {
     color: var(--ppal-bg-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 /* Section Subtitle */
 .Section p {
     color: var(--link-color);
+    margin-top: 5px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 /* body */
@@ -46,8 +50,8 @@ main {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    margin-left: 40px;
     line-height: 30px;
+    margin-top: -10px;
 }
 
 /* icons */
@@ -163,4 +167,41 @@ img {
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
+}
+
+/* Pricing */
+.Pricing h2 {
+    margin-top: 60px;
+    font-size: 30px;
+    color: var(--ppal-bg-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.Pricing p {
+    color: var(--gray-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+}
+
+.Pricing span {
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+    color: var(--ppal-bg-color);
+}
+
+.Pricing span::after {
+    content: '';
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    height: .25rem;
+    width: 100%;
+    background: var(--underline-color);
+    z-index: -1;
 }
