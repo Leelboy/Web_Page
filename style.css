@@ -1,7 +1,7 @@
 /* CSS Variable Definitions */
 :root {
     --ppal-bg-color: #000000;
-    --link-color: #0000ff;
+    --link-color: #4242e6;
 }
 
 /* Main */
@@ -26,6 +26,16 @@ main {
 /* Section Title */
 h2 {
     margin-bottom: 0px;
-    font-size: 24px;
+    font-size: 39px;
+    color: var(--ppal-bg-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+
+p {
+    color: var(--link-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 700;
 }
