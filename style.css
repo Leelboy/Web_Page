@@ -38,16 +38,110 @@ main {
     color: var(--link-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
 }
 
-/* Check Mark */
-
-/* Check List */
+/* body */
 .body p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
     margin-left: 40px;
     line-height: 30px;
+}
+
+/* icons */
+.icon1 h2 {
+    font-family: "Roboto, sans-serif";
+    font-style: normal;
+    font-weight: 900;
+    color: var(--ppal-bg-color);
+    font-size: 25px;
+}
+
+.icon1 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.icon1 button {
+    color: var(--link-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.icon2 h2 {
+    margin-top: 50px;
+    font-family: "Roboto, sans-serif";
+    font-style: normal;
+    font-weight: 900;
+    color: var(--ppal-bg-color);
+    font-size: 25px;
+}
+
+.icon2 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.icon2 button {
+    color: var(--link-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.icon3 h2 {
+    margin-top: 50px;
+    font-family: "Roboto, sans-serif";
+    font-style: normal;
+    font-weight: 900;
+    color: var(--ppal-bg-color);
+    font-size: 25px;
+}
+
+.icon3 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.icon3 button {
+    color: var(--link-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.icon4 h2 {
+    margin-top: 50px;
+    font-family: "Roboto, sans-serif";
+    font-style: normal;
+    font-weight: 900;
+    color: var(--ppal-bg-color);
+    font-size: 25px;
+}
+
+.icon4 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.icon4 button {
+    color: var(--link-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
 }
