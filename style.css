@@ -51,12 +51,21 @@ main {
 }
 
 /* icons */
+img {
+    display: inline-flex;
+    align-items: center;
+    width: 4%;
+    height: auto;
+}
+
 .icon1 h2 {
     font-family: "Roboto, sans-serif";
     font-style: normal;
     font-weight: 900;
     color: var(--ppal-bg-color);
     font-size: 25px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .icon1 p {
@@ -81,6 +90,8 @@ main {
     font-weight: 900;
     color: var(--ppal-bg-color);
     font-size: 25px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .icon2 p {
@@ -105,6 +116,8 @@ main {
     font-weight: 900;
     color: var(--ppal-bg-color);
     font-size: 25px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .icon3 p {
@@ -129,6 +142,8 @@ main {
     font-weight: 900;
     color: var(--ppal-bg-color);
     font-size: 25px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .icon4 p {
